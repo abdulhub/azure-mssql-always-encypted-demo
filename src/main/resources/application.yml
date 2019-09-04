@@ -6,11 +6,11 @@ spring:
 ---
 spring:
   datasource:
-    url: "jdbc:sqlserver://algoserver.database.windows.net:1433;database=custdb;Encrypt=true;TrustServerCertificate=false;HostNameInCertificate=*.database.windows.net;loginTimeout=30"
+    url: "jdbc:sqlserver://xxxxxxxxxxx.database.windows.net:1433;database=custdb;Encrypt=true;TrustServerCertificate=false;HostNameInCertificate=*.database.windows.net;loginTimeout=30"
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
     dataSourceProperties.ColumnEncryptionSetting: "Enabled"
-    username: algoroot
-    password: Cloud123#
+    username: xxxxxxxxx
+    password: xxxxxxxxx
 
   jpa:
     properties:
@@ -19,7 +19,7 @@ spring:
 
 azure:
   vault: 
-    clientId: ee1d870d-993d-4edd-b536-34ad3e476586
-    clientSecret: mNs5pjxlVj+n5P.kw5_2/_r06q=u1lV.
+    clientId: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    clientSecret: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
  
